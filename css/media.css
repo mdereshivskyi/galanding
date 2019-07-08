@@ -1,0 +1,229 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .personal_last_block {
+        margin-top: 35px;
+    }
+
+      .logo_container h1 {
+            font-size: 36px;
+      }
+
+      .logo_container h1 span {
+            font-size: 24px;
+      }
+
+      .navigation a li {
+            font-size: 12px;
+      }
+
+    .services_left img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .services_right img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    p {
+        padding: 0 20px;
+        clear: both;
+    }
+
+    .services_left a input {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .services_right a input {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .resume_container .left,
+    .section_content .resume_container h3,
+    .resume_container .resume_icon {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+      .logo_container h1 {
+            font-size: 24px;
+      }
+
+      .logo_container h1 span {
+            font-size: 18px;
+      }
+
+    .resume_container .left h3 {
+        margin-top: 0;
+    }
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: #222;
+    }
+
+    nav.black ul {
+        background: #222;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+
+    .menu-icon {
+        display: block;
+    }
+
+    .services_left img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 400px;
+        height: 400px;
+    }
+
+    .services_right img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 400px;
+        height: 400px;
+    }
+
+    p {
+        padding: 0 20px;
+        clear: both;
+    }
+
+    .services_left a input {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .services_right a input {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .navigation a {
+        padding: 0 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    /*      .top_wrapper .top_text h1 {
+            font-size: 2em;
+            padding-left: 10px;
+            padding-right: 10px;
+      }*/
+
+    .services_left img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    .services_right img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    .main_footer {
+        text-align: left;
+    }
+
+    .main_footer .social_wrap {
+        float: left;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .main_footer .social_wrap ul {
+        padding-left: 0;
+    }
+
+    .navigation a {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .services_left img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    .services_right img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
